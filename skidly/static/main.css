@@ -1,0 +1,132 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.main_container {
+    display: flex;
+    align-items: center;
+    max-width: 1080px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+.img_main{
+    width: fit-content;
+}
+.hero{
+    margin-top: -30px;
+    width: fit-content;
+}
+.main_hero {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.title_hero {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+
+    color: #000000;
+    max-width: 420px;
+    word-break: normal;
+    margin-bottom: 25px;
+}
+
+.buttons_hero{
+    display: flex;
+    max-width: 427px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.getSale_btn_hero p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+    padding: 12px 16px 12px 16px;
+    
+}
+.getSale_btn_hero{
+    background: #00B2FF;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 45px;
+    width: fit-content;
+    margin-right: 23px;
+}
+
+.weGood_btn_hero p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+    padding: 11px 31px 11px 31px;
+}
+
+.weGood_btn_hero{
+    background: #FFFFFF;
+    border: 1px solid #00B2FF;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 45px;
+    width: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+    .img_main{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .img_main{
+        display: none;
+    }
+    .hero{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main{
+        margin-top: 30px;
+    }
+    .title_hero{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .main_hero{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .title_hero{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .img_main{
+        width: 400px;
+    }
+    .weGood_btn_hero p{
+        padding: 11px 20px 11px 20px;
+    }
+    .buttons_hero{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .getSale_btn_hero{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}

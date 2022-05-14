@@ -1,0 +1,166 @@
+.shops{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.shops_container {
+    max-width: 1080px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.magazine{
+    background: linear-gradient(90.88deg, #015DFE 0%, rgba(108, 86, 242, 0.994829) 51.71%, rgba(98, 145, 226, 0.99) 100%);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.wild{
+    background: linear-gradient(90.88deg, #DA0BB7 0%, rgba(164, 17, 154, 0.994829) 51.71%, rgba(74, 17, 116, 0.99) 100%);
+}
+.shein {
+    background: linear-gradient(90.88deg, #FF343E 0%, #FF6970 51.71%, rgba(252, 121, 127, 0.99) 100%);
+}
+.yandex {
+    background: linear-gradient(90.88deg, #F5C400 0%, #F5C400 51.71%, rgba(250, 228, 54, 0.99) 100%);
+}
+.yandex .mag_title{
+    color: black;
+}
+
+.mag_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.mag_top{
+
+    padding-right: 25px;
+    padding-top: 20px;
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.mag_title{
+    max-width: 835px;
+}
+.mag_logo{
+    margin-right: 25px;
+}
+.mag_logo img{
+    width: 140px !important;
+    min-width: 140px;
+}
+
+.mag_getSale{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1050px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.mag_input{
+    border: none;
+    outline:none;
+    width: 81%;
+    height: 35px;
+    border-radius: 90px;
+    padding-left: 15px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-right: 2.5%;
+}
+
+.mag_btn{
+    padding: 9px 20px 9px 20px;
+    background-color: #00B2FF;
+    color: white;
+    width: fit-content;
+    border-radius: 90px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 170px;
+    min-width: 170px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .mag_top{
+        flex-wrap: wrap;
+        padding: 0;
+        padding-right: 25px;
+        padding-top: 20px;
+    }
+    .mag_title{
+        max-width: 100%;
+        text-align: center;
+    }
+    .mag_logo{
+        
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .mag_getSale{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mag_input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mag_btn{
+        padding: 12px 20px 12px 20px;
+    }
+    .mag_input{
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .mag_logo{
+        margin-bottom: 0px;
+    }
+    .mag_title{
+        display: none;
+    }
+}
+
+hr{
+    margin-top: 50px;
+    color: #D1D1D1;
+}
+
+.cop{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+
+
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.magazines_conteiner{
+    margin-top: 40px;
+}
